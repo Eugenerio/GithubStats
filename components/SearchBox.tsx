@@ -16,7 +16,7 @@ const SearchBox = ({ onSearch }: Props) => {
         placeholderTextColor="#ffffff"
       />
       <Pressable
-        className="bg-sky-500 px-4 py-2 rounded"
+        className="bg-sky-500 px-4 py-2 rounded-lg"
         onPress={() => onSearch(username)}
       >
         <Text className="text-gray-100">Search</Text>
